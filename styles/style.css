@@ -62,7 +62,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(/assets/img/Hero-bg.png);
+    background-image: url(../assets/img/Hero-bg.png);
     border-top: 2px dashed rgb(182, 182, 182);
     border-bottom: 2px dashed rgb(182, 182, 182);
     padding: 26px 0;
@@ -178,25 +178,30 @@ h2 {
     display: flex;
     text-align: left;
 }
-.target-card{
+
+.target-card {
     width: 33.33%;
     padding: 40px;
     border-radius: 16px;
     margin-right: 15px;
 }
-.target-card h3{
+
+.target-card h3 {
     font-size: 24px;
     margin: 24px 0 8px 0;
 }
-.target-card p{
+
+.target-card p {
     font-size: 16px;
-    margin: 0 0 24px 0;
+    margin-bottom: 24px;
 }
-.target-card a{
+
+.target-card a {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
 }
+
 .html {
     background: rgba(255, 76, 30, 0.05);
 }
@@ -207,5 +212,35 @@ h2 {
 
 .js {
     background: rgba(255, 223, 0, 0.05);
+}
+
+/* next target styles */
+.next-target-card {
+    display: flex;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+.next-target-card-img{
+    margin-right: 24px;
+}
+.target-card-title h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.target-card-title p {
+    font-size: 16px;
+    margin-bottom: 24px;
+    line-height: 26px;
+}
+
+.target-card-title a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
 }
 
